@@ -13,7 +13,7 @@ namespace PLinq
     {
         static void Main( string [ ] args )
         {
-            string yen = Path.Combine(@"c:\windows", "");
+            string yen = Path.Combine(@"c:\windows", "aho.txt");
 
 
             var del = new Derived();
