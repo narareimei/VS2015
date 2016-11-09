@@ -4,6 +4,8 @@ using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.IO;
+
 
 namespace PLinq
 {
@@ -11,6 +13,8 @@ namespace PLinq
     {
         static void Main( string [ ] args )
         {
+            string yen = Path.Combine(@"c:\windows", "");
+
 
             var del = new Derived();
             del.method1();
